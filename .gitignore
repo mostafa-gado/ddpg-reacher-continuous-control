@@ -1,0 +1,25 @@
+# Unity environments (download them, see README)
+Reacher_Linux_1/
+Reacher_Linux_20/
+Reacher_Linux*/
+Reacher*.app/
+Reacher_Windows*/
+
+# Python
+__pycache__/
+*.pyc
+
+# Training run output (re-created by train.py)
+train.log
+nohup.out
+unity-environment.log
+checkpoint_multi.pth
+
+# Large raw video (a GIF of it is in images/)
+*.mp4
+
+# Early experiments, not used by train.py / test.py
+Continuous_Control.ipynb
+Crawler.ipynb
+ddpg_agent.py
+.ipynb_checkpoints/
